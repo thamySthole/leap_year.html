@@ -1,9 +1,9 @@
-# leap_year.html
-it calculates how many leap days you've seen since you were born
+<!DOCTYPE html>
 <html>
-
-<head>
-    <style>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="leapYear">
+        <style>
         * {
             margin: 0px;
             padding: 0px;
@@ -37,16 +37,17 @@ it calculates how many leap days you've seen since you were born
         }
    
             </style>
-</head>
-
-<body>
-   <h1>leapyear counter</h1>
+  </head>
+  <body>
+    
+    
+       <h1>leapyear counter</h1>
     <input class='text' type="text" placeholder="year of birth" />
         <button type="button">send</button>
-        <div>
-  
-</div>
     
+    <div></div>
+    
+     
     <script>
 alert('this counts leaps years you have since you were born please enter you date of birth                                           much love✈️✈️🤘')
     let print = console.log
@@ -116,5 +117,6 @@ alert('this counts leaps years you have since you were born please enter you dat
         
         }
     </script>
-</body>
-</html/>
+    
+  </body>
+</html>
